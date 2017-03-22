@@ -37,3 +37,54 @@ h2{
   text-align: center;
   font-family: 'Diplomata SC', cursive;
 }
+
+#heading1of4{
+  font-size: 40px;
+  font-style: italic;
+  color: purple;
+}
+#heading2of4{
+  font-family: 'Bungee Shade', cursive;
+  color:purple;
+}
+
+#sentence2{
+  color: red;
+}
+#dplus, #cplus, #bplus{
+  height: 50%;
+  width: auto;
+}
+
+.selfie{
+  height: 25%;
+  width: auto;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  margin: 25px;
+}
+@keyframes swageffect{
+    0%  {color:red;}
+   25%  {color:yellow;}
+   50%  {color:blue;}
+   75%  {color:green;}
+   100% {color:red;}
+}
+@-webkit-keyframes swageffect{
+    0%  {color:red;}
+   25%  {color:yellow;}
+   50%  {color:blue;}
+   75%  {color:green;}
+   100% {color:red;}
+}
+#heading3of4{
+  font-family: 'Bungee Shade', cursive;
+  -webkit-animation-name: swageffect; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  animation-name: swageffect;
+  font-size: 60px;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
